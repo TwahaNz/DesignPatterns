@@ -11,3 +11,6 @@ A simple project testing all the types of design patterns.
     GoF Definition: Ensure a class only has one instance, and provide a 
     global point of access to it.
     
+###3. Proxy Pattern
+    GoF Definition: Provide a surrogate or placeholder for another object
+    to control access to it.

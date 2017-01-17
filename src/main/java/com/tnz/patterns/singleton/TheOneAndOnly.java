@@ -3,7 +3,7 @@ package com.tnz.patterns.singleton;
 /**
  * Created by nzetwa01 on 1/17/2017.
  */
-public class TheOneAndOnly {
+class TheOneAndOnly {
 
     private TheOneAndOnly() {}
 
@@ -12,7 +12,7 @@ public class TheOneAndOnly {
         private final static TheOneAndOnly person = new TheOneAndOnly();
     }
 
-    public static TheOneAndOnly getInstance() {
+    static TheOneAndOnly getInstance() {
         return Singleton.person;
     }
 }

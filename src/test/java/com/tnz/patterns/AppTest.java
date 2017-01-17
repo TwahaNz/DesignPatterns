@@ -33,6 +33,8 @@ public class AppTest
      */
     public void testApp()
     {
+        App app = new App();
+        App.main(new String[]{"java"});
         assertTrue( true );
     }
 }
